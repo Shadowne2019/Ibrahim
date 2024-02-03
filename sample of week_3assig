@@ -1,0 +1,174 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPOx5HDwpUKrHTsSYmsgzWs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Shadowne2019/Ibrahim/blob/main/sample%20of%20week_3assig\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IJcdrk0PVRyK",
+        "outputId": "aed03c78-d7ea-4ad9-b7ed-dbff77fb16f7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "9\n"
+          ]
+        }
+      ],
+      "source": [
+        "# write a code\n",
+        "num1=5\n",
+        "num2=4\n",
+        "sum=num1+num2\n",
+        "print(sum)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# write a variable that can give two\n",
+        "first_name=\"ibrahim\"\n",
+        "second_name=\"inuwa\"\n",
+        "full_name=first_name+second_name\n",
+        "print(full_name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EUCo5zZZYMDn",
+        "outputId": "5a55c4a8-d238-4a42-9f65-f96ff1e496c9"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ibrahiminuwa\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Displaying the data types of variable"
+      ],
+      "metadata": {
+        "id": "Lea91tBjaxIW"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(sum))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zY70AAaobGvs",
+        "outputId": "ed9b5840-d0cc-4a77-fc7c-cf44d3355d2a"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(full_name))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YBOW92ZcbawJ",
+        "outputId": "12d65c1a-55a7-4f4e-d960-06085ee84a0e"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Displaying two different strings"
+      ],
+      "metadata": {
+        "id": "MjwQv7SrdyZs"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=\"ibrahim\"\n",
+        "address=\"emir palace road katangare\"\n",
+        "biodata=(f'{name}{address}')\n",
+        "print(biodata)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XrP9Cxelexfy",
+        "outputId": "a4d75041-0d4b-461c-f85a-72834505d9a0"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ibrahimemir palace road katangare\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
