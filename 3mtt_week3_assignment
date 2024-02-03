@@ -1,0 +1,439 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMry0B7d600VkSeqk1OmVnV",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Shadowne2019/Ibrahim/blob/main/3mtt_week3_assignment\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Displaying a data type"
+      ],
+      "metadata": {
+        "id": "GvZIf8YKiw8e"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(sum))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VcLIscE4jGdA",
+        "outputId": "c7cd2cbc-063d-4216-d326-4b05d3337cb4"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'builtin_function_or_method'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(\"full_name\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8sk99rH9jvVu",
+        "outputId": "db0d8588-df9c-41c9-8354-05fcb82298ff"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(\"number\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4KwqDZADkgpA",
+        "outputId": "c74ba3a0-f6fc-4fb0-a567-f768ece875e2"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Displaying two different intigers"
+      ],
+      "metadata": {
+        "id": "2E5BECodkzyI"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# write a code\n",
+        "num1=9\n",
+        "num2=6\n",
+        "sum=num1+num2\n",
+        "print (sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hfMCZ64VlK6a",
+        "outputId": "0674bbf7-51dd-40be-cbd6-b00f56b23a7c"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "amount1=\"100\"\n",
+        "amount2=\"15\"\n",
+        "mult=amount1+amount2\n",
+        "print(mult)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0eZEYvAzy27u",
+        "outputId": "0df50a2c-c94f-4c62-f9d1-d8fac486bec8"
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10015\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Displaying strings type of data"
+      ],
+      "metadata": {
+        "id": "41I_TOWimh_n"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# write a three variable that can give\n",
+        "first_name=\"Ibrahim\"\n",
+        "second_name=\"inuwa\"\n",
+        "third_name=\"nuhu\"\n",
+        "full_name=first_name+second_name+third_name\n",
+        "print(full_name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cSpgb-bkmtet",
+        "outputId": "799290d6-db5c-47ee-c022-e56050e88a0e"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ibrahiminuwanuhu\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "first_name=\"shadow\"\n",
+        "second_name=\"alhaji\"\n",
+        "third_name=\"inuwa\"\n",
+        "full_name=first_name+second_name+third_name\n",
+        "print(full_name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6mroqCH1yI0a",
+        "outputId": "bd59823b-36ce-4491-f15c-e010ff2d73a5"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "shadowalhajiinuwa\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Displaying two different strings"
+      ],
+      "metadata": {
+        "id": "iz4DtqdrpOFE"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=\"Ibrahim\"\n",
+        "address=\"emir palace road katangare\"\n",
+        "biodata=(f'{name}{address}')\n",
+        "print(biodata)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9J4sFVX5pUss",
+        "outputId": "65dc551b-f238-4529-9423-e2c2ae8b1cc2"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ibrahimemir palace road katangare\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=\"shadow\"\n",
+        "address=\"kano saban layi opp schl compus\"\n",
+        "information=(f\"{name}{address}\")\n",
+        "print(information)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QqyhtOf4xEkv",
+        "outputId": "6c79af8c-d5ef-45c6-93a9-d1c7a516d10e"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "shadowkano saban layi opp schl compus\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Displaying population size in some town"
+      ],
+      "metadata": {
+        "id": "EJDlCh88rtEm"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# write population of male and female in dutse\n",
+        "male=90\n",
+        "female=60\n",
+        "sum=male+female\n",
+        "print(sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rqLdzj_Ur1__",
+        "outputId": "7d5bc7da-9434-4512-c77b-dcd06e68237b"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "150\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# write population of male and female in hadejia\n",
+        "male=70\n",
+        "female=80\n",
+        "sum=male+female\n",
+        "print(sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ar9krZkisqmR",
+        "outputId": "c5a20c90-f181-4d5c-97f3-bad2efb0da69"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "150\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# write population of male and female in ringing\n",
+        "male=60\n",
+        "female=70\n",
+        "sum=male+female\n",
+        "print(sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sAEfgkK5tOUT",
+        "outputId": "27073221-205b-43c3-b0cf-b899f3b673b9"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "130\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# write population of male and female in kazaure\n",
+        "male=40\n",
+        "female=60\n",
+        "sum=male+female\n",
+        "print(sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6v3zDDeMv82H",
+        "outputId": "ad6c8938-0b90-4135-8a4e-08644b7a02f2"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "100\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# write population of male and female in gumel\n",
+        "male=35\n",
+        "female=65\n",
+        "sum=male+female\n",
+        "print(sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vgZyTUSswUq3",
+        "outputId": "415403db-6d45-4ab0-c8ba-b6f1df50233c"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "100\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
